@@ -37,7 +37,7 @@ let runnerRegisteredEarly = false;
 // 3.Create a variable for the runner’s age and set it equal to a number.
 // You’ll change this later as you test different runner conditions.
 
-let runnerRegisteredEarly = false;
+let runnerAge = 19;
 
 
 
@@ -75,11 +75,9 @@ let runnerRegisteredEarly = false;
 //
 // Add an else statement that logs a statement to the console telling the runner to see the registration desk.
 //-----Answer to question 4 to 9, please reveiw the code below-------------
-let raceNumber = Math.floor(Math.random() * 1000);
 
-let runnerRegisteredEarly = true;
 
-let runnerAge = 19;
+
 
 if(runnerAge >=18 && !runnerRegisteredEarly){
   raceNumber+= 1000;
