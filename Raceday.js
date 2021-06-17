@@ -74,3 +74,26 @@ let runnerRegisteredEarly = false;
 // 9.Don’t forget about runners exactly 18 years old!
 //
 // Add an else statement that logs a statement to the console telling the runner to see the registration desk.
+//-----Answer to question 4 to 9, please reveiw the code below-------------
+let raceNumber = Math.floor(Math.random() * 1000);
+
+let runnerRegisteredEarly = true;
+
+let runnerAge = 19;
+
+if(runnerAge >=18 && !runnerRegisteredEarly){
+  raceNumber+= 1000;
+}
+let time = "9:30 am"
+if(runnerAge > 18 && runnerRegisteredEarly === true  ){
+  console.log(`You are scheduled to run at ${time} and your race number is ${raceNumber} `)
+} else if(runnerAge > 18 &&
+!runnerRegisteredEarly ){
+  time = "11:00 am"
+console.log(`You are schedule to run at ${time} and your race number is ${raceNumber}`)
+}else if(runnerAge < 18){
+  time = "12:30 pm"
+  console.log(`You are scheduled to run at ${time} and your race number is ${raceNumber}`)
+}else {
+  console.log("Please see the registation desk for more information.")
+}
