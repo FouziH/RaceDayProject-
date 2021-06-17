@@ -20,6 +20,7 @@
 //-------------------------------Start Here----------------------------------------------------
 
 // 1. Race numbers are assigned randomly. We’ve provided the necessary code at the top of the file.
+let raceNumber = Math.floor(Math.random() * 1000);
 //
 // Check off this task after reading that line.
 //
@@ -27,14 +28,16 @@
 
 
 // 2. Create a variable that indicates whether a runner registered early or not.
-//
+
 // Set it equal to a Boolean value. You’ll change this later as you test different runner conditions.
 
-
+let runnerRegisteredEarly = false;
 
 
 // 3.Create a variable for the runner’s age and set it equal to a number.
 // You’ll change this later as you test different runner conditions.
+
+let runnerRegisteredEarly = false;
 
 
 
